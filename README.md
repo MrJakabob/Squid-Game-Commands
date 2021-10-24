@@ -1,5 +1,6 @@
 # Squid-Game-Commands
 Here's the commands used in my video
+
 ---------------Armor Stands-----------------
 /summon armor_stand ~ ~ ~ {CustomName:"\"Forward\"",invisible:1,NoGravity:1}
 /summon armor_stand ~ ~ ~ {CustomName:"\"Backward\"",invisible:1,NoGravity:1}
