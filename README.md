@@ -2,16 +2,19 @@
 Here's the commands used in my video
 
 ---------------Armor Stands-----------------
+
 /summon armor_stand ~ ~ ~ {CustomName:"\"Forward\"",invisible:1,NoGravity:1}
 
 /summon armor_stand ~ ~ ~ {CustomName:"\"Backward\"",invisible:1,NoGravity:1}
 
 -------------------Timer--------------------
+
 /scoreboard objectives add Timer dummy
 
 /scoreboard players set 1s Timer 20
 
 -------------------Chain--------------------
+
 /scoreboard players add timer4s Timer 1
 
 /execute if score timer4s Timer >= 4s Timer
@@ -21,6 +24,7 @@ Here's the commands used in my video
 setblock x y z minecraft:redstone_block
 
 -------------------Check--------------------
+
 /execute at @a run tp @e[type=minecraft:armor_stand,name=Forward] ~2 ~ ~
 
 /execute at @a run tp @e[type=minecraft:armor_stand,name=Backward] ~-2 ~ ~
